@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 2px;
+    width: 600px;
+    height: 1270px;
+    
+}
+.flex-container > div {
+    background-color: white;
+    
+  }
+
+
+  /* START SECTION 1 */
+
+
+  #section1{
+    width: 250px;
+    margin: 5px;
+  }
+  #profile{
+    height: 280px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+  }
+  #img{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 10px;
+      }
+
+     #img img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+     } 
+     #profile b{
+        position: absolute;
+        margin-top :225px ;
+        font-size:25px;
+     }
+     #profile p{
+        position: absolute;
+        margin-top :250px ;
+        font-size:18px;
+     }
+
+     #contect{
+        height: 215px;
+        background-color: black;
+     }
+     #contect h1{
+        color: white;
+        padding: 10px;
+     }
+     #contect i{
+        color: white;
+        margin-left: 30px;
+        margin-bottom: 10px;
+     }
+     #contect span{
+        color: white;
+        
+     }
+     #contect p{
+      margin-left: 44px;
+      color: white;
+     }
+
+     #skills{
+      height: 480px;
+      background-color: black;
+     }
+     #skills h1{
+      color: white;
+      padding: 10px;
+     }
+     #skills p{
+      color: white;
+      margin-left: 30px;
+      
+     }
+     .container{
+      width: 80%;
+      margin-left: 29px;
+     
+      background-color: #ddd;
+     }
+     .subject{
+      text-align: right;
+      color: white;
+      margin-bottom: 5px;
+      height: 10px;
+      font-size: 10px;
+     }
+
+     .html {width: 85%; background-color: #2196F3;}
+    .css {width: 75%; background-color: #2196F3;}
+    .js {width: 80%; background-color: #2196F3;}
+    .react {width: 70%; background-color: #2196F3;}
+    .express {width: 74%; background-color: #2196F3;}
+    .node {width: 83%; background-color: #2196F3;}
+    .cc {width: 75%; background-color: #2196F3;}
+
+     #skills i{
+      color: white;
+      margin-left: 30px;
+      margin-bottom: 10px;
+     }
+     #skills span{
+      color: white;
+     }
+     #Certificate{
+      height: 160px;
+      background-color: black;
+   }
+   #Certificate h1{
+      color: white;
+      padding: 10px;
+   }
+   #Certificate i{
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 10px;
+   }
+   #Certificate span{
+    color: white;
+   }
+   #Certificate p{
+    margin-left: 47px;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: -10px;
+   }
+
+   #Platform{
+    height: 125px;
+    background-color: black;
+ }
+ #Platform h1{
+    color: white;
+    padding: 10px;
+ }
+ #Platform i{
+  color: white;
+  margin-left: 30px;
+  margin-bottom: 10px;
+ }
+ #Platform span{
+  color: white;
+ }
+
+/* START SECTION 2 */
+
+
+  #section2{
+    width: 300px;
+    margin: 5px;
+  }
+#object h1{
+    font-size:28px;
+    color: rgb(43 188 201);
+    border-bottom: black solid 1px;
+    margin-top: -20px;
+
+}
+#object p{
+    margin-top:5px ;
+    margin-bottom: 5px;
+
+}
+#Experience h1{
+    font-size:28px;
+    color: rgb(43 188 201);
+    border-bottom: black solid 1px;
+    margin-bottom: 3PX;
+}
+#margin{
+    margin-top: 3px;
+}
+#project h1{
+    font-size:28px;
+    color: rgb(43 188 201);
+    border-bottom: black solid 1px;
+    margin-bottom: 3PX;
+}
+#eduction h1{
+    font-size:28px;
+    color: rgb(43 188 201);
+    border-bottom: black solid 1px;
+    margin-bottom: 3PX;
+}
+
+/* MEDIA  */
+@media only screen and (max-width:768px)
+{
+    .flex-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        background-color: black;
+    }
+    #section1, #section2 {
+        width: 100%;
+        margin: 10px 0;
+    }
+    #profile{
+        margin-top: -10px;
+    }
+    #object h1{
+        margin-top: -30px;
+    }
+    #section2 {
+        background-color: black;
+    }
+    #section2 >section > b{
+        color: rgb(177, 131, 70);
+    }
+    #section2 >section > span{
+        color: white;
+    }
+    #section2 >section > p{
+        color: white;
+    }
+}
